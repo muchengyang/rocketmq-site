@@ -37,6 +37,6 @@ RocketMQ Connect Worker支持两种运行模式，集群和单机
 
 ![RocketMQ Connect部署模型集群](../picture/32rocketmq-connect/deploy3.png)
 
-单机模式，Connector任务运行在单机上，Worker本身没有高可用，任务offset信息持久化在本地。适合一些对高可没有什么要求或者不需要Worker保障高可用的场景，例如部署在k8s集群中，由k8s集群保障高可用。
+单机模式，Connector任务运行在单机上，Worker本身没有高可用，任务offset信息持久化在本地。适合一些对高可用没有什么要求或者不需要Worker保障高可用的场景，例如部署在k8s集群中，由k8s集群保障高可用。
 
 ![RocketMQ Connect部署模型单机](../picture/32rocketmq-connect/deploy4.png)
